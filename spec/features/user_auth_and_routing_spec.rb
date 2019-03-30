@@ -1,4 +1,6 @@
+require 'rails_helper'
 feature 'As a person wanting to use Instagram' do
+
   scenario 'I can sign up' do
     visit '/users/sign_up'
     fill_in 'user_email', with: 'test@test.com'
@@ -15,6 +17,11 @@ feature 'As a person wanting to use Instagram' do
     fill_in 'user_password', with: 'Welcome123'
     click_button 'Log in'
     expect(page).to have_content 'Welcome to Instagram'
+  end
 
+  scenario 'I will be redirected to sign if when visiting Instagram if I am not signed in' do
+    visit '/'
+    expect(current_path).to eq '/users/sign_in'
+    expect(page).to have_button 'Log in'
   end
 end
