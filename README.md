@@ -17,6 +17,19 @@ Your challenge is to build Instagram using Rails. You'll need **users** who can 
 
 Bonus if you can add filters!
 
+## User Stories
+
+1. As a person, so that I can use Instagram, I want to be able to sign-up to Instagram.
+2. As a user of Instagram, so that I can access my account, I want to sign in to Instagram.
+3. As a user of Instagram, so that I can ensure no one else uses my account, I want to able to sign out of it.
+4. As a user of Instagram so that I can share my pictures, I want to be able to post them on my profile.
+5. As a user of Instagram so that I can express my liking for a picture, I want to be able to like it.
+6. As a user of Instagram so as to communicate what I think of a picture, I want to be able to comment on pictures.
+
+## Model
+
+https://drive.google.com/file/d/1fc1qutltPX6dg27RnwRhE540hwUtFrJ_/view?usp=sharing
+
 ## How to start
 
 1. Produce some stories, break them down into tasks, and estimate
