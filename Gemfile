@@ -43,7 +43,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rubocop-rails'
   gem 'rspec-rails'
-  gem 'simplecov-console'
+  # gem 'simplecov-console'
   gem 'simplecov'
 end
 

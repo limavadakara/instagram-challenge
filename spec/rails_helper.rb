@@ -1,5 +1,5 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
-require 'simplecov-console'
+# require 'simplecov-console'
 require 'simplecov'
 require 'spec_helper'
 ENV['RAILS_ENV'] ||= 'test'
@@ -10,8 +10,8 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 require 'rspec/rails'
 #Enter how the test coverage should be shown
 SimpleCov.formatters = SimpleCov::Formatter::MultiFormatter.new([
-  SimpleCov::Formatter::HTMLFormatter,
-  SimpleCov::Formatter::Console
+  SimpleCov::Formatter::HTMLFormatter
+  # SimpleCov::Formatter::Console
 ])
 # Add additional requires below this line. Rails is not loaded until this point!
 
